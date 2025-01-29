@@ -1,0 +1,138 @@
+
+
+.setting-left-section{
+    width: 255px;
+    height: 230px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: .875rem;
+    color: #212529;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.toc-menus{
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.1);
+    flex: 0 0 225px;
+    
+}
+
+.toc-menus-button{
+    font-weight: 400;
+    position: relative;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.toc-menus-button:hover{
+    border-left: 2px solid #8316b5;
+    font-weight: 500;
+}
+
+.photo-button{
+    position: absolute;
+    top: 64px;
+    left: 285px;
+}
+
+.toc-menus-button-active{
+    font-weight: 500;
+    position: relative;
+    border-left: 2px solid #8316b5;
+    text-align: left;
+    padding-left: 22px;
+}
+
+.line{
+    height: 1px;
+    background-color: #e4e4e4;
+    width: 100%;
+    margin-left: 1.5rem;
+}
+
+.toc-menu{
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    padding-bottom: 0;
+    padding-top: 14px;
+}
+
+.toc-menu-item{
+    height: 54px;
+}
+
+.toc-button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 0 0 0 25px;
+}
+
+.toc-button-active{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding-left: 25px;
+    border-left: 3px solid #8316b5;
+    font-weight: 600;
+}
+
+.toc-button:hover{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding-left: 25px;
+    border-left: 3px solid #8316b5;
+    font-weight: 600;
+}
+
+.toc-bottom{
+    padding: 0 0 0 25px;
+}
+
+.setting-right-section{
+    width: 564px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 50px;
+}
+
+.setting-title{
+    margin-bottom: 4px;
+    line-height: 23px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.setting-description{
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+    color: #989898;
+}
+
+.login-input label{
+    font-size: 14px;
+    font-weight: 700;
+    color: #212529;
+}
+
+.inactive-button{
+    float: right;
+    padding: 5px 20px;
+    background-color: #ced4da;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    
+}
+
+.login-input:hover{
+    border: 2px solid #8316b5;
+}

@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "link": "ihracat-sorumlusu",
+      "img": "https://img-kariyer.mncdn.com/mnresize/150/150/UploadFiles/Clients/SquareLogo/139/311139_258558.jpg",
+      "title": "İhracat Sorumlusu",
+      "description": "HORİZON BİYOKİMYA SAN. TİC.",
+      "adress": "Hatay"
+    },
+    {
+      "id": 2,
+      "link": "oteller-sorumlusu",
+      "img": "https://img-kariyer.mncdn.com/mnresize/150/150/UploadFiles/Clients/SquareLogo/876/334876_291472.jpg",
+      "title": "Oteller Sorumlusu",
+      "description": "Mena Gate.",
+      "adress": "İstanbul(Avr.)"
+    },
+    {
+      "id": 3,
+      "link": "cinnabon-barista",
+      "img": "https://img-kariyer.mncdn.com/mnresize/150/150/UploadFiles/Clients/SquareLogo/927/ai_kk_157927_6022024015211.png",
+      "title": "Cinnabon Barista",
+      "description": "Cinnabon Türkiye / Sadık Group",
+      "adress": "İstanbul(Avr.)"
+    }
+  ]
+}
