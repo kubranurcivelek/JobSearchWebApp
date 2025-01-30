@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import jobsDb from "../json/jobsDb.json";
 
 export default function JobContent() {
   const [jobselect, setjobselect] = useState("3");
+  const jobs = jobsDb.jobs;
+  
   function jobaccordion(e) {
     if (jobselect === e) {
       setjobselect("");

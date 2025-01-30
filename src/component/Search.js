@@ -1,16 +1,27 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 
 export default function Search() {
-  const [searchselect, setSearchselect] = useState("");
+  const navigate = useNavigate();
+  const [searchselect, setSearchSelect] = useState("");
+  const [selectedPosition, setSelectedPosition] = useState(""); // Pozisyon için state
+  const [selectedCity, setSelectedCity] = useState(""); // Şehir için state
+ 
 
-  function isSelected(e) {
-    if (searchselect === e) {
-      setSearchselect("");
-    } else {
-      setSearchselect(e);
-    }
+  function isSelected(id) {
+    setSearchSelect(searchselect === id ? null : id);
   }
+  
+  function handleSearch() {
+    navigate("/is-ilanlari", {
+      state: {
+        position: selectedPosition.toLowerCase(),
+        city: selectedCity.toLowerCase(),
+      },
+    });
+  }
+
 
   return (
     <>
