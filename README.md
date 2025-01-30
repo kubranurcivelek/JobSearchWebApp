@@ -62,3 +62,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Video link
 
 https://youtu.be/-Ol7gsu111I
+
+## Deploy link
+
+https://jobsearchwebapp-1.onrender.com/
